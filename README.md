@@ -19,11 +19,11 @@
 
   **Start the Docker daemon on Linux  or ubuntu**
   
-    ```
-    1.	systemctl : $ sudo systemctl start docker
-    2.	service : $ sudo service docker start
-    ```
- **Start the docker daemon in windows start menu>docker desktop >start**
+   ```sudo systemctl start docker ```
+   
+   ```sudo service docker start ```
+   
+   **Start the docker daemon in windows start menu>docker desktop >start**
 
 ### To run the spring boot application jar in local docker container
     docker run -p 8080:8080 springbootdockerimage:0.0.1-SNAPSHOT
